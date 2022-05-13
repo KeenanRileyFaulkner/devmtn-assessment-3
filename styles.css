@@ -1,0 +1,170 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.check {
+	display: inline;
+}
+
+.profileContent {
+	margin-top: 20px;
+	display: grid;
+	grid-template-rows: 310px 45px 0.5fr 1fr 1fr 50px;
+}
+
+#profilePic {
+	border: 5px solid;
+	border-radius: 100%;
+	border-color: white;
+	justify-self: center;
+}
+
+#skills {
+	grid-row-start: 3;
+}
+
+#interests {
+	grid-row-start: 4;
+}
+
+#career-goals {
+	grid-row-start: 5;
+}
+
+ol{
+	list-style-position: inside;
+}
+
+ul {
+	padding-left: 0px;
+	list-style-position: inside;
+}
+
+hr {
+	width: 500px;
+	height: 2px;
+	background-color: #f8b12e;
+	align-self: center;
+	border: none;
+}
+
+#yellowButtons {
+	display: flex;
+	justify-content: center;
+}
+
+.bigAndYellow {
+	height: 40px;
+	background-color: #d8b666;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.bigAndYellow:hover {
+	background-color: #d9c086;
+	cursor: pointer;
+	color: white;
+}
+
+#about-neighborhood {
+	display: grid;
+	grid-template-rows: 50px 125px 225px 85px;
+}
+
+#about-neighborhood-h1 {
+	height: 35px;
+	margin: 15px 0 0;
+	display: flex;
+	justify-content: center;
+
+}
+
+#about-neighborhood-img {
+	grid-row-start: 3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#about-neighborhood-p {
+	grid-row-start: 2;
+	margin-right: 15px;
+	margin-top: 5px;
+	/* text-align: center; */
+}
+
+#POI-title {
+	text-align: center;
+}
+
+#POI-links {
+	list-style-type: circle;
+	height: 120px;
+	display: grid;
+	grid-template-rows: 40px 40px 40px;
+	grid-template-columns: 167px 167px 166px;
+}
+
+.links1 {
+	grid-column-start: 1;
+	vertical-align: center;
+}
+
+.links2 {
+	grid-row-start: 1;
+	grid-column-start: 2;
+}
+
+.links3 {
+	grid-column-start: 3;
+	grid-row-start: 1;
+}
+
+.secondrow {
+	grid-row-start: 2;
+}
+
+.thirdrow {
+	grid-row-start: 3;
+}
+
+#neighborhood-button {
+	width: 500px;
+	display: flex;
+	justify-content: center;
+}
